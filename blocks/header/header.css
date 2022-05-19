@@ -1,14 +1,7 @@
 .header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
+  margin: 0 auto 56px;
+  padding: 28px 0 0;
+  max-width: 1184px;
   display: flex;
-  position: relative;
-  background-color: #f2f2f2;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  z-index: 1;
+  justify-content: space-between;
 }
