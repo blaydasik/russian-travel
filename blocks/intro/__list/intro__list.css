@@ -9,3 +9,22 @@
   font-style: normal;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__list {
+    max-width: 720px;
+    margin: 33px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    max-width: calc(100% - 32px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__list {
+    max-width: 288px;
+  }
+}
