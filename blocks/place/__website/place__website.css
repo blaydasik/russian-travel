@@ -15,11 +15,6 @@
 @media screen and (max-width: 767px) {
   .place__website {
     max-width: 288px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .place__website {
     margin-left: calc((100% - 460px)/2);
   }
 }
