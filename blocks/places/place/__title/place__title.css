@@ -32,3 +32,9 @@
     margin-left: calc((100% - 460px)/2);
   }
 }
+
+@media screen and (max-width: 460px) {
+  .place__title {
+    margin-left: 16px;
+  }
+}
